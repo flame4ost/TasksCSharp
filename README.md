@@ -1,4 +1,4 @@
-# TasksCSharp
+# Tasks C#
 
 Object-oriented programming (second language) "C#"
 
