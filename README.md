@@ -12,4 +12,4 @@ Student 3d year
 
 Telegram: https://t.me/flame4ost
 
-# Task1: https://prnt.sc/udhh9r
+# Fraction: https://prnt.sc/udhh9r
