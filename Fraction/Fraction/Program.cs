@@ -3,12 +3,15 @@ using System;
 
     namespace Fraction
     {
+		
+	// Реалізувати клас дріб. Необхідно зберігати чисельник і знаменник в якості змінних- членів. 
+    // Реалізувати функції- члени для введення даних в змінні- члени, для виконання арифметичних операцій (+ - * ...)
         class Program
         {
             static void Main(string[] args)
             {
                 var result = InputOutput();
-                Console.WriteLine("Input arithmetic operation: + - *");
+                Console.WriteLine("Input arithmetic operation: + - * /");
                 string b = Console.ReadLine();
                 Console.WriteLine(Count(result, b));
             
@@ -39,6 +42,11 @@ using System;
                 else if (arithmetic_operation=="*")
                 {
                     double result = number[0] * number[1];
+                    return result;
+				}
+				else if (arithmetic_operation=="/")
+                {
+                    double result = number[0] / number[1];
                     return result;
                 }
                 return -1;
